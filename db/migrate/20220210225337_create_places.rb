@@ -6,4 +6,11 @@ class CreatePlaces < ActiveRecord::Migration[7.0]
       t.timestamps
     end
   end
+
+  def index
+    @places = Places.all
+  end
+
+
+
 end
