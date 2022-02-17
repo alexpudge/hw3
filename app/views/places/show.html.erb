@@ -4,14 +4,15 @@
 
 <h3>Posts</h3>
 
-<ul>
-  <% for post in @place.posts %>
-    <li><%= "#{post.title}"%></li>
-    <li><%= "#{post.date}"%></li>
-    <li><%= "#{post.body}"%></li>
 
+  <% for post in @place.posts %>
+    <ul>
+    <li><%= "#{post.title}"%></li>
+    <li><%= "#{post.posted_on}"%></li>
+    <li><%= "#{post.description}"%></li>
+    </ul>
   <% end %>
-</ul>
+
 
 <p>
   <a href="/posts/new?place_id=<%= @place.id %>">New Post</a>
