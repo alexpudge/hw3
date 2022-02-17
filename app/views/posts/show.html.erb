@@ -1,0 +1,9 @@
+
+   
+<div class="post">
+<h2><%= @post.title %></h2>
+<p class="date"><%= @post.posted_on %></p>
+<p><%= @post.description %></p>
+</div>
+<p><%= button_to "Delete this post", @post, method: :delete %></p>
+  

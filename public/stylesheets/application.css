@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+  #  font-family: sans-serif;
+}
+
+.post {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    padding: 16px;
+    width: auto;
+}
+
+.button {
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+  height: auto;
+  width: auto;
+  background-color: gray;
+}
+
+
+.new_button {
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+  height: auto;
+  width: auto;
+  background-color: blue;
+}
+
+.place {
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+  height: auto;
+  width: auto;
+  background-color: gray;
+}
+
+
+.button:hover {
+  background-color: darkgray;
+}
+
+.place:hover {
+  background-color: darkgray;
+}
+
+.date {
+  color: #D8D8D8;
+}
+
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+.form {
+  border-style: solid;
+  text-align: left;
+  padding: 16px;
+  border-radius: 8px;
+}
