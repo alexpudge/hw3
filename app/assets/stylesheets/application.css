@@ -1,5 +1,8 @@
 /* Application styles */
 
+
 h1 {
+    text-align: center;
     font-family: sans-serif;
-  }
+    text-decoration: underline;
+}
